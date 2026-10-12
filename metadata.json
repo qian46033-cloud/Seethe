@@ -1,0 +1,6 @@
+{
+  "name": "Quanxihen · 拾光名片",
+  "description": "极简黑白灰低饱和度建筑与空间叙事三页个人名片与作品集。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

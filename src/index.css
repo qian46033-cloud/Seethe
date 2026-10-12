@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+:root {
+  --font-serif: 'Cormorant Garamond', 'Noto Serif SC', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+html,
+body {
+  background-color: #ededed;
+  color: #171717;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100vw;
+}
+
+.font-serif-arch {
+  font-family: var(--font-serif);
+}
+
+.font-sans-arch {
+  font-family: var(--font-sans);
+}
+
+/* Crisp architectural paper card */
+.arch-card {
+  background: #ffffff;
+  border: 1px solid #d4d4d4;
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.03);
+}
+
+/* Fine architectural dotted leader lines */
+.arch-dotted {
+  background-image: linear-gradient(to right, #9ca3af 33%, rgba(255, 255, 255, 0) 0%);
+  background-position: bottom;
+  background-size: 4px 1px;
+  background-repeat: repeat-x;
+}
+
+
