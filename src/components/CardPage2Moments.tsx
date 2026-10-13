@@ -61,6 +61,7 @@ export const CardPage2Moments: React.FC<CardPage2MomentsProps> = ({
             <div>十八岁｜土象金牛｜Le｜INTJ</div>
             <div>曾用名：恃雾行</div>
             <div>常驻：耳鸟</div>
+            <div>所在ip：水苍玉</div>
           </div>
         </div>
 

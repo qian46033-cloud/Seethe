@@ -6,7 +6,7 @@ export const AudioPlayer: React.FC = () => {
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
   // Audio file path with relative base URL for GitHub Pages compatibility
-  const audioSrc = `${import.meta.env.BASE_URL}audio/qishi.mp3`;
+  const audioSrc = `${import.meta.env.BASE_URL}audio/the_city.mp3`;
 
   useEffect(() => {
     const audio = audioRef.current;
@@ -91,7 +91,7 @@ export const AudioPlayer: React.FC = () => {
           )}
 
           <div className="flex items-center gap-1.5 font-mono text-[11px] tracking-wider pr-1">
-            <span className="font-medium">其实 · 薛之谦</span>
+            <span className="font-medium">The City · 비트 팩토리</span>
             <span className="text-[9px] uppercase text-neutral-400 group-hover:text-neutral-300 border-l border-neutral-200 group-hover:border-neutral-700 pl-1.5">
               {isPlaying ? '播放中' : '已暂停'}
             </span>
