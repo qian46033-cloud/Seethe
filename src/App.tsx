@@ -10,6 +10,7 @@ import { Navbar } from './components/Navbar';
 import { CardPage1Profile } from './components/CardPage1Profile';
 import { CardPage2Moments } from './components/CardPage2Moments';
 import { CardPage3Connect } from './components/CardPage3Connect';
+import { AudioPlayer } from './components/AudioPlayer';
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState<PageId>('profile');
@@ -76,6 +77,9 @@ export default function App() {
           <span>{toastMessage}</span>
         </div>
       )}
+
+      {/* Background Audio Player with Autoplay & Toggle */}
+      <AudioPlayer />
     </div>
   );
 }
