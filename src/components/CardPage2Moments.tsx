@@ -62,6 +62,8 @@ export const CardPage2Moments: React.FC<CardPage2MomentsProps> = ({
             <div>曾用名：恃雾行</div>
             <div>常驻：耳鸟</div>
             <div>所在ip：水苍玉</div>
+            <div>主：伪高 温高 恶趣 挑逗</div>
+            <div>副：低无 逻辑 血腥 下位</div>
           </div>
         </div>
 
